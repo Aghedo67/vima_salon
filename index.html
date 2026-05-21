@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vima Beauty Salon | Luxury Hair & Wigs</title>
+  <meta
+    name="description"
+    content="Shop premium wigs, luxury hair bundles, and elegant hair collections from Vima Beauty Salon."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/2348037207813?text=Hello%20Vima%20Beauty%20Salon%2C%20I%20need%20assistance."
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    WhatsApp
+  </a>
+
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <p class="brand-subtitle">Luxury Hair Brand</p>
+        <h1 class="logo">Vima Beauty Salon</h1>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#products">Shop</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="tag">Elegant • Premium • Luxurious</p>
+        <h2>Luxury Wigs &amp; Premium Hair Collections for Bold, Beautiful Women</h2>
+        <p class="hero-text">
+          Discover quality wigs, beautiful textures, and luxury hair collections crafted
+          to elevate your beauty. Browse our products, view prices, and place your order
+          directly with ease.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#products" class="btn">Shop Now</a>
+          <a href="#contact" class="btn btn-outline">Get Assistance</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <strong>Premium Quality</strong>
+            <span>Luxury wigs and bundles you can trust.</span>
+          </div>
+          <div class="stat-card">
+            <strong>Fast Ordering</strong>
+            <span>Order directly through WhatsApp.</span>
+          </div>
+          <div class="stat-card">
+            <strong>Easy to Update</strong>
+            <span>Add new hair pictures anytime.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <img src="images/hair-3.jpeg" alt="Featured Vima Beauty Salon Wig" />
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-section" id="featured">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Why Choose Us</p>
+        <h2>A More Luxurious Hair Shopping Experience</h2>
+        <p>
+          We bring you elegant styles, polished textures, and premium hair options that
+          make every look feel special.
+        </p>
+      </div>
+
+      <div class="featured-grid">
+        <div class="featured-card">
+          <h3>Luxury Wig Collection</h3>
+          <p>Beautifully selected wigs designed for confidence, elegance, and style.</p>
+        </div>
+        <div class="featured-card">
+          <h3>Premium Hair Bundles</h3>
+          <p>Soft, durable, and high-quality hair bundles for your desired look.</p>
+        </div>
+        <div class="featured-card">
+          <h3>Direct Assistance</h3>
+          <p>Need help choosing? Reach us directly on WhatsApp for quick support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Our Products</p>
+        <h2>Available Hairs &amp; Wigs</h2>
+        <p>Browse our collection, check prices, and add your favorite items to cart.</p>
+      </div>
+
+      <div class="shop-tools">
+        <input type="text" id="search-input" placeholder="Search for wigs, bundles, curls..." />
+        <select id="category-filter">
+          <option value="all">All Categories</option>
+        </select>
+      </div>
+
+      <div id="product-list" class="product-grid"></div>
+    </div>
+  </section>
+
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Beauty Gallery</p>
+        <h2>Our Hair Collection in View</h2>
+        <p>Explore some of our featured luxury hair looks from Vima Beauty Salon.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="images/hair-1.jpeg" alt="Copper Bob Wig" />
+        <img src="images/hair-2.jpeg" alt="Silky Short Bob" />
+        <img src="images/hair-3.jpeg" alt="Straight Copper Frontal Wig" />
+        <img src="images/hair-4.jpeg" alt="Luxury Straight Unit" />
+      </div>
+    </div>
+  </section>
+
+  <section class="cart-section" id="cart">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Cart</p>
+        <h2>Your Selected Items</h2>
+      </div>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <div class="cart-summary">
+        <h3>Total: ₦<span id="cart-total">0</span></h3>
+        <button class="btn btn-dark" id="clear-cart">Clear Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Customer Reviews</p>
+        <h2>What Our Customers Say</h2>
+        <p>Build trust with elegant testimonials from satisfied customers.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <p>"The hair quality is amazing and very soft. I absolutely love my wig!"</p>
+          <h4>— Ada</h4>
+        </div>
+        <div class="review-card">
+          <p>"Very beautiful and luxurious. The ordering process was also easy."</p>
+          <h4>— Chioma</h4>
+        </div>
+        <div class="review-card">
+          <p>"I got exactly what I ordered. Vima Beauty Salon is now my go-to."</p>
+          <h4>— Grace</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="checkout-section">
+    <div class="container checkout-grid">
+      <div class="checkout-panel">
+        <div class="section-head left">
+          <p class="tag">Place Order</p>
+          <h2>Complete Your Order</h2>
+          <p>
+            Fill in your details below and we will contact you to confirm your order.
+          </p>
+        </div>
+
+        <form id="order-form" class="order-form">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+          <input type="text" id="address" placeholder="Delivery Address" required />
+          <textarea id="note" placeholder="Order Note (optional)"></textarea>
+          <button type="submit" class="btn">Submit Order</button>
+        </form>
+
+        <p id="order-message" class="order-message"></p>
+      </div>
+
+      <aside class="contact-card" id="contact">
+        <p class="mini-label">Direct Assistance</p>
+        <h3>Order on WhatsApp</h3>
+        <p>
+          For quick orders and direct assistance, chat with Vima Beauty Salon on WhatsApp.
+        </p>
+
+        <a id="whatsapp-link" class="btn whatsapp-btn" href="#" target="_blank">
+          Chat on WhatsApp
+        </a>
+
+        <div class="contact-note">
+          <p><strong>WhatsApp:</strong> +2348037207813</p>
+          <p><strong>Orders:</strong> Send cart directly for faster processing</p>
+          <p><strong>Assistance:</strong> Get help choosing the best hair for you</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3>Vima Beauty Salon</h3>
+        <p>Luxury wigs, premium bundles, and elegant beauty collections.</p>
+      </div>
+      <div>
+        <p>© 2026 Vima Beauty Salon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
