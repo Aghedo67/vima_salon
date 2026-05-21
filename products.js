@@ -30,5 +30,45 @@ const products = [
     price: 140000,
     image: "images/hair-4.jpeg",
     description: "A refined straight luxury unit with a rich color blend and elegant styling."
+  },
+    {
+    id: 5,
+    name: "Luxury Straight Unit",
+    category: "Premium Wig",
+    price: 90000,
+    image: "images/hair-5.jpeg",
+    description: "A refined straight luxury unit with a rich color blend and elegant styling."
+  },
+    {
+    id: 6,
+    name: "Luxury Straight Unit",
+    category: "Premium Wig",
+    price: 65000,
+    image: "images/hair-6.jpeg",
+    description: "A refined straight luxury unit with a rich color blend and elegant styling."
+  },
+    {
+    id: 7,
+    name: "Luxury Straight Unit",
+    category: "Premium Wig",
+    price: 100000,
+    image: "images/hair-7.jpeg",
+    description: "A refined straight luxury unit with a rich color blend and elegant styling."
+  },
+    {
+    id: 8,
+    name: "Luxury Straight Unit",
+    category: "Premium Wig",
+    price: 85000,
+    image: "images/hair-8.jpeg",
+    description: "A refined straight luxury unit with a rich color blend and elegant styling."
+  },
+    {
+    id: 9,
+    name: "Luxury Straight Unit",
+    category: "Premium Wig",
+    price: 100000,
+    image: "images/hair-9.jpeg",
+    description: "A refined straight luxury unit with a rich color blend and elegant styling."
   }
 ];
