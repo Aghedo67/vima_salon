@@ -76,7 +76,11 @@ const products = [
     name: "Luxury Straight Unit",
     category: "Premium Wig",
     price: 100000,
-    image: "images/hair-10-side.jpeg",
+    image: [
+      "images/hair-10-front.jpeg",
+      "images/hair-10-back.jpeg",
+      "images/hair-10-side.jpeg"
+    ],
     description: "A refined straight luxury unit with a rich color blend and elegant styling."
   },
 ];
