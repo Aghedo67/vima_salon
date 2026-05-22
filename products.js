@@ -77,7 +77,7 @@ const products = [
     category: "Premium Wig",
     price: 100000,
     image: [
-      "images/hair-10-side.jpeg"
+      "images/hair-10-side.jpeg",
     ],
     description: "A refined straight luxury unit with a rich color blend and elegant styling."
   },
